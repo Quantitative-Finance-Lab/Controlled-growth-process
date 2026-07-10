@@ -37,7 +37,7 @@ $$c= \sqrt{2\left[1-\frac{(1+b)^{\alpha_{\mathrm{emp}}}}{1+r/\lambda}\right]}.$$
 In this study, \(c\) is interpreted as a measure of text cohesion. A larger value of \(c\) indicates a stronger interaction among the words constituting the policy transcript under the assumptions of the CGP framework.
 
 <p align="center">
-  <img src="figures/Figure_1.png" width="750">
+  <img src="README_image/cgp_calibration.png" width="750">
 </p>
 
 <p align="center">
