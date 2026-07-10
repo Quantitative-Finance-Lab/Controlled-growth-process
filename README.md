@@ -20,35 +20,19 @@ When the model is applied to textual data, each word is treated as an evolving e
 
 The evolution of the word-frequency distribution is characterized by three principal parameters:
 
-- \(b\): the growth factor, representing the increase in the frequencies of existing words;
-- \(\lambda\): the occurrence rate, representing the rate at which existing word frequencies are updated; and
-- \(r\): the production rate, representing the increase in the number of distinct words.
+- $b$: the growth factor, representing the increase in the frequencies of existing words;
+- $\lambda$: the occurrence rate, representing the rate at which existing word frequencies are updated; and
+- $r$: the production rate, representing the increase in the number of distinct words.
 
 Using these parameters, the CGP model produces a model-implied scaling exponent:
 
-\[
-\alpha_{\mathrm{model}}
-=
-\frac{\ln(1+r/\lambda)}
-{\ln(1+b)}.
-\]
+$$ \alpha_{\mathrm{mod}}=\frac{\ln\left(1+\frac{r}{\lambda}\right)}{\ln(1+b)}.$$
 
 An empirical scaling exponent is estimated separately from the observed word-frequency distribution using a power-law fitting procedure.
 
 The interaction effect is subsequently derived by comparing the empirical scaling exponent with the distribution implied by the CGP parameters:
 
-\[
-c
-=
-\sqrt{
-2
-\left[
-1-
-\frac{(1+b)^{\alpha_{\mathrm{emp}}}}
-{1+r/\lambda}
-\right]
-}.
-\]
+$$c= \sqrt{2\left[1-\frac{(1+b)^{\alpha_{\mathrm{emp}}}}{1+r/\lambda}\right]}.$$
 
 In this study, \(c\) is interpreted as a measure of text cohesion. A larger value of \(c\) indicates a stronger interaction among the words constituting the policy transcript under the assumptions of the CGP framework.
 
