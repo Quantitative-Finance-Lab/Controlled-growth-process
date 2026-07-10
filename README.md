@@ -1,4 +1,4 @@
-# Controlled-growth-process
+# Controlled growth process
 
 This repository provides the public implementation of the controlled growth process (CGP) analysis used in the study “Facial Sentiment and Verbal Content in Harmony: Theory and Evidence.” The study examines manually verified transcripts from official South Korean housing-policy announcement videos and compares policy periods characterized by relatively stable and unstable policy stances.
 
