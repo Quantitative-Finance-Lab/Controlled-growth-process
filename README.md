@@ -102,14 +102,7 @@ These supplementary variables are not used in the CGP calculation. They may ther
 ---
 
 ## 4. Core Code for the CGP Analysis
-
-The complete analytical notebook is provided in:
-
-```text
-code/parkmoon_cgp.ipynb
-```
-
-Only the central computational procedures are presented below. Study-specific numerical settings, estimated cutoff values, empirical results, and local file paths have been omitted.
+The central computational procedures are presented below. Study-specific numerical settings, estimated cutoff values, empirical results, and local file paths have been omitted.
 
 ### 4.1 Loading and organizing the transcripts
 
